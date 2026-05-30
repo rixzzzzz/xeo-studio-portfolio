@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XEO STUDIO — Premium AI Short-Form Content Agency</title>
+    <title>XEO STUDIO | Premium AI Short-Form Content Agency</title>
     <meta name="description" content="XEO STUDIO produces hyper-optimized, high-retention TikTok, Reels & Shorts edits driven by AI workflows. Scale your brand with done-for-you short-form content.">
     <meta name="theme-color" content="#7C3AED">
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%237C3AED'/%3E%3Ctext x='16' y='23' font-family='Arial,sans-serif' font-size='19' font-weight='bold' fill='white' text-anchor='middle'%3EX%3C/text%3E%3C/svg%3E">
 
     <!-- Open Graph / social sharing -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="XEO STUDIO — Premium AI Short-Form Content Agency">
+    <meta property="og:title" content="XEO STUDIO | Premium AI Short-Form Content Agency">
     <meta property="og:description" content="Hyper-optimized, high-retention TikTok, Reels & Shorts edits driven by AI workflows.">
     <meta name="twitter:card" content="summary_large_image">
 
@@ -166,6 +166,17 @@
             background-clip: text;
         }
 
+        /* ── Logo mark badge ── */
+        .logo-badge {
+            background: linear-gradient(135deg, #7C3AED 0%, #a855f7 100%);
+            box-shadow: 0 0 16px rgba(124,58,237,0.5);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .logo-lockup:hover .logo-badge {
+            transform: rotate(-6deg) scale(1.05);
+            box-shadow: 0 0 24px rgba(124,58,237,0.7);
+        }
+
         /* ── Pulse dot ── */
         @keyframes pulseDot {
             0%, 100% { opacity: 1; transform: scale(1); }
@@ -200,7 +211,14 @@
 ════════════════════════════════════════════ -->
 <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
     <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#" class="text-[1.2rem] font-black logo-text tracking-tight">XEO STUDIO</a>
+        <a href="#" class="logo-lockup flex items-center gap-2.5" aria-label="XEO STUDIO home">
+            <span class="logo-badge w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0">
+                <svg class="w-[19px] h-[19px]" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M5.5 5l13 14M18.5 5l-13 14" stroke="white" stroke-width="2.7" stroke-linecap="round"/>
+                </svg>
+            </span>
+            <span class="text-[1.2rem] font-black logo-text tracking-tight">XEO STUDIO</span>
+        </a>
 
         <div class="hidden md:flex items-center gap-7">
             <a href="#services" class="text-[0.82rem] text-gray-400 hover:text-white transition-colors duration-150">Services</a>
@@ -211,7 +229,7 @@
         </div>
 
         <a href="#contact" class="btn-primary px-5 py-2.5 rounded-xl text-[0.82rem] font-semibold text-white hidden md:inline-flex items-center gap-1.5">
-            Get in touch
+            Get a free audit
             <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
         </a>
 
@@ -231,7 +249,7 @@
             <a href="#benefits" class="text-gray-400 py-2 text-sm hover:text-white transition-colors" onclick="toggleMenu()">Benefits</a>
             <a href="#pricing" class="text-gray-400 py-2 text-sm hover:text-white transition-colors" onclick="toggleMenu()">Pricing</a>
             <a href="#faq" class="text-gray-400 py-2 text-sm hover:text-white transition-colors" onclick="toggleMenu()">FAQ</a>
-            <a href="#contact" class="btn-primary mt-2 text-center px-5 py-2.5 rounded-xl text-sm font-semibold text-white" onclick="toggleMenu()">Get in touch</a>
+            <a href="#contact" class="btn-primary mt-2 text-center px-5 py-2.5 rounded-xl text-sm font-semibold text-white" onclick="toggleMenu()">Get a free audit</a>
         </div>
     </div>
 </nav>
@@ -263,7 +281,7 @@
 
         <!-- Subheading -->
         <p class="text-gray-400 text-lg md:text-xl max-w-[640px] mx-auto mb-11 leading-[1.7]">
-            Done-for-you TikToks, Reels &amp; Shorts — engineered with AI to hook viewers
+            Done-for-you TikToks, Reels &amp; Shorts, engineered with AI to hook viewers
             in the first 3 seconds and keep them watching. You send the idea, we handle the rest.
         </p>
 
@@ -314,7 +332,7 @@
                     </svg>
                 </div>
                 <h3 class="text-white font-bold text-[1rem] mb-2">Scroll-Stopping Hooks</h3>
-                <p class="text-gray-500 text-[0.82rem] leading-relaxed">We script the first 3 seconds like your views depend on it — because they do. Attention from frame one.</p>
+                <p class="text-gray-500 text-[0.82rem] leading-relaxed">We script the first 3 seconds like your views depend on it, because they do. Attention from frame one.</p>
             </div>
 
             <!-- 02 -->
@@ -326,7 +344,7 @@
                     </svg>
                 </div>
                 <h3 class="text-white font-bold text-[1rem] mb-2">AI B-Roll &amp; Visuals</h3>
-                <p class="text-gray-500 text-[0.82rem] leading-relaxed">Fresh AI-generated visuals on every cut — so eyes stay glued to the screen and never drift away.</p>
+                <p class="text-gray-500 text-[0.82rem] leading-relaxed">Fresh AI-generated visuals on every cut, so eyes stay glued to the screen and never drift away.</p>
             </div>
 
             <!-- 03 -->
@@ -368,7 +386,7 @@
                 The Edit Styles That<br>Stop the Scroll
             </h2>
             <p class="text-gray-500 text-[0.92rem] mt-4 max-w-xl mx-auto leading-relaxed">
-                The formats we specialize in — each one engineered for retention, built natively for 9:16.
+                The formats we specialize in, each one engineered for retention and built natively for 9:16.
             </p>
         </div>
 
@@ -379,7 +397,7 @@
                 <div class="text-gray-500 text-[0.72rem] font-medium mt-1">Hook engineered upfront</div>
             </div>
             <div class="metric-card rounded-2xl p-5 text-center">
-                <div class="text-[2.1rem] font-black gradient-text leading-none mb-1">24–48h</div>
+                <div class="text-[2.1rem] font-black gradient-text leading-none mb-1">24-48h</div>
                 <div class="text-gray-500 text-[0.72rem] font-medium mt-1">Average delivery</div>
             </div>
             <div class="metric-card rounded-2xl p-5 text-center">
@@ -410,7 +428,7 @@
                 </div>
                 <div class="px-5 pb-5 pt-1">
                     <h3 class="text-white font-semibold text-[0.85rem] mb-0.5">Faceless UGC</h3>
-                    <p class="text-gray-500 text-[0.72rem]">Product &amp; brand content — no camera needed</p>
+                    <p class="text-gray-500 text-[0.72rem]">Product &amp; brand content, no camera needed</p>
                 </div>
             </div>
 
@@ -512,7 +530,7 @@
                     </svg>
                 </div>
                 <h3 class="text-white font-bold text-[0.97rem] mb-2">Data-Driven Iteration</h3>
-                <p class="text-gray-500 text-[0.82rem] leading-relaxed">We edit based on drop-off analytics — every video smarter and more optimized than the last.</p>
+                <p class="text-gray-500 text-[0.82rem] leading-relaxed">We edit based on drop-off analytics, so every video lands smarter and more optimized than the last.</p>
             </div>
 
             <!-- 5 -->
@@ -523,7 +541,7 @@
                     </svg>
                 </div>
                 <h3 class="text-white font-bold text-[0.97rem] mb-2">Elite AI Integration</h3>
-                <p class="text-gray-500 text-[0.82rem] leading-relaxed">Cutting-edge tools for world-class visual assets — always ahead of every competitor.</p>
+                <p class="text-gray-500 text-[0.82rem] leading-relaxed">Cutting-edge tools for world-class visual assets, always ahead of every competitor.</p>
             </div>
 
             <!-- 6 -->
@@ -534,7 +552,7 @@
                     </svg>
                 </div>
                 <h3 class="text-white font-bold text-[0.97rem] mb-2">100% Done-For-You</h3>
-                <p class="text-gray-500 text-[0.82rem] leading-relaxed">You just record or give us the prompt — we handle scripting, editing, and delivery end to end.</p>
+                <p class="text-gray-500 text-[0.82rem] leading-relaxed">You just record or give us the prompt, and we handle scripting, editing, and delivery end to end.</p>
             </div>
         </div>
     </div>
@@ -696,7 +714,7 @@
                 </button>
                 <div class="faq-body">
                     <div class="px-6 pb-6 text-gray-500 text-[0.82rem] leading-relaxed border-t border-[rgba(255,255,255,0.04)] pt-4">
-                        Our AI analyzes top-performing content in your niche to extract the exact hooks, pacing, and structures that drive retention. We apply those patterns to every edit — resulting in higher watch time, more shares, and better algorithm performance from the very first video.
+                        Our AI analyzes top-performing content in your niche to extract the exact hooks, pacing, and structures that drive retention. We apply those patterns to every edit, driving higher watch time, more shares, and better algorithm performance from the very first video.
                     </div>
                 </div>
             </div>
@@ -744,7 +762,7 @@
                 </button>
                 <div class="faq-body">
                     <div class="px-6 pb-6 text-gray-500 text-[0.82rem] leading-relaxed border-t border-[rgba(255,255,255,0.04)] pt-4">
-                        Yes — all plans are month-to-month with no lock-in. Cancel anytime before your next billing cycle. We're confident you'll stay because the results speak for themselves.
+                        Yes, all plans are month-to-month with no lock-in. Cancel anytime before your next billing cycle. We're confident you'll stay because the results speak for themselves.
                     </div>
                 </div>
             </div>
@@ -766,7 +784,7 @@
                     <span class="gradient-text">Your Brand</span>
                 </h2>
                 <p class="text-gray-400 text-[1rem] md:text-lg max-w-md mx-auto leading-relaxed">
-                    Send a message and get a <strong class="text-white font-semibold">free content audit</strong> + a sample edit. No call needed — we reply in writing within 24h.
+                    Send a message and get a <strong class="text-white font-semibold">free content audit</strong> + a sample edit. No call needed. We reply in writing within 24h.
                 </p>
             </div>
 
@@ -811,7 +829,14 @@
     <div class="max-w-7xl mx-auto">
         <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10 mb-10">
             <div>
-                <div class="text-xl font-black logo-text mb-1">XEO STUDIO</div>
+                <div class="logo-lockup flex items-center gap-2.5 mb-2">
+                    <span class="logo-badge w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <svg class="w-[17px] h-[17px]" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M5.5 5l13 14M18.5 5l-13 14" stroke="white" stroke-width="2.7" stroke-linecap="round"/>
+                        </svg>
+                    </span>
+                    <span class="text-xl font-black logo-text">XEO STUDIO</span>
+                </div>
                 <p class="text-gray-500 text-[0.75rem]">Premium AI Short-Form Content Agency</p>
             </div>
 
@@ -826,7 +851,7 @@
 
             <!-- Contact CTA -->
             <a href="#contact" class="btn-primary px-5 py-2.5 rounded-xl text-white text-[0.82rem] font-semibold whitespace-nowrap inline-flex items-center gap-2">
-                Get in touch
+                Get a free audit
                 <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </a>
         </div>
@@ -897,13 +922,13 @@
                 const data = await res.json();
                 if (data.success) {
                     contactForm.reset();
-                    statusEl.textContent = "✓ Thanks! Your message is in — we'll reply within 24h.";
+                    statusEl.textContent = "✓ Thanks! Your message is in. We'll reply within 24h.";
                     statusEl.style.color = '#a855f7';
                 } else {
                     throw new Error(data.message || 'error');
                 }
             } catch (err) {
-                statusEl.textContent = 'Something went wrong — email us directly at leo@xeostudio.co';
+                statusEl.textContent = 'Something went wrong. Email us directly at leo@xeostudio.co';
                 statusEl.style.color = '#f87171';
             } finally {
                 statusEl.classList.remove('hidden');
