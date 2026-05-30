@@ -156,6 +156,9 @@
         .faq-chevron { transition: transform 0.3s ease; }
         .faq-chevron.open { transform: rotate(180deg); }
 
+        /* ── Active nav link (scrollspy) ── */
+        .nav-link-active { color: #ffffff; }
+
         /* ── Nav glass ── */
         .nav-glass {
             background: rgba(5,5,5,0.92);
@@ -600,6 +603,7 @@
             <h2 class="text-4xl md:text-[2.8rem] font-black leading-tight">
                 The Best Content Automation,<br>at the Right Price
             </h2>
+            <p class="text-gray-500 text-[0.9rem] mt-5">Month-to-month &nbsp;·&nbsp; Cancel anytime &nbsp;·&nbsp; No lock-in</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
@@ -829,12 +833,12 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                         <label for="cfName" class="sr-only">Your name</label>
-                        <input id="cfName" name="name" type="text" required placeholder="Your name"
+                        <input id="cfName" name="name" type="text" required autocomplete="name" placeholder="Your name"
                             class="w-full bg-[#0d0d0d] border border-[rgba(255,255,255,0.09)] rounded-xl px-4 py-3 text-[0.9rem] text-white placeholder-gray-500 focus:outline-none focus:border-[rgba(124,58,237,0.6)] transition-colors">
                     </div>
                     <div>
                         <label for="cfEmail" class="sr-only">Your email</label>
-                        <input id="cfEmail" name="email" type="email" required placeholder="you@brand.com"
+                        <input id="cfEmail" name="email" type="email" required autocomplete="email" placeholder="you@brand.com"
                             class="w-full bg-[#0d0d0d] border border-[rgba(255,255,255,0.09)] rounded-xl px-4 py-3 text-[0.9rem] text-white placeholder-gray-500 focus:outline-none focus:border-[rgba(124,58,237,0.6)] transition-colors">
                     </div>
                 </div>
@@ -977,6 +981,22 @@
             }
         });
     });
+
+    // ── Active nav link on scroll (scrollspy) ──
+    const navLinks = [...document.querySelectorAll('#navbar a[href^="#"]')];
+    const spyTargets = ['services','portfolio','benefits','pricing','faq']
+        .map(id => document.getElementById(id)).filter(Boolean);
+    if (spyTargets.length) {
+        const spy = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    const id = '#' + e.target.id;
+                    navLinks.forEach(l => l.classList.toggle('nav-link-active', l.getAttribute('href') === id));
+                }
+            });
+        }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
+        spyTargets.forEach(t => spy.observe(t));
+    }
 
     // ── Intersection Observer: fade-in cards ──
     const observer = new IntersectionObserver(entries => {
