@@ -6,21 +6,31 @@
     <title>XEO STUDIO | Premium AI Short-Form Content Agency</title>
     <meta name="description" content="XEO STUDIO produces hyper-optimized, high-retention TikTok, Reels & Shorts edits driven by AI workflows. Scale your brand with done-for-you short-form content.">
     <meta name="theme-color" content="#7C3AED">
+    <link rel="canonical" href="https://xeostudio.co/">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="XEO STUDIO">
+
     <link rel="icon" type="image/png" href="./xeo-logo.png">
     <link rel="apple-touch-icon" href="./xeo-logo.png">
 
     <!-- Open Graph / social sharing -->
     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://xeostudio.co/">
+    <meta property="og:site_name" content="XEO STUDIO">
     <meta property="og:title" content="XEO STUDIO | Premium AI Short-Form Content Agency">
-    <meta property="og:description" content="Hyper-optimized, high-retention TikTok, Reels & Shorts edits driven by AI workflows.">
-    <meta property="og:image" content="https://xeostudio.co/xeo-logo.png">
+    <meta property="og:description" content="Done-for-you TikTok, Reels & Shorts edits, engineered with AI to hook viewers in the first 3 seconds. Scale your brand with high-retention short-form content.">
+    <meta property="og:image" content="https://xeostudio.co/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="https://xeostudio.co/xeo-logo.png">
+    <meta name="twitter:title" content="XEO STUDIO | Premium AI Short-Form Content Agency">
+    <meta name="twitter:description" content="Done-for-you TikTok, Reels & Shorts edits engineered with AI for high retention.">
+    <meta name="twitter:image" content="https://xeostudio.co/og-image.png">
 
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
     <style>
         *, *::before, *::after { font-family: 'Inter', sans-serif; box-sizing: border-box; }
 
@@ -196,6 +206,9 @@
             text-transform: uppercase;
         }
 
+        /* ── Anchor offset so headings clear the sticky nav ── */
+        section[id] { scroll-margin-top: 5rem; }
+
         /* ── Respect reduced-motion preference ── */
         @media (prefers-reduced-motion: reduce) {
             *, *::before, *::after {
@@ -206,8 +219,26 @@
             }
         }
     </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "XEO STUDIO",
+      "description": "AI-powered short-form content agency producing high-retention TikTok, Instagram Reels and YouTube Shorts edits.",
+      "url": "https://xeostudio.co/",
+      "logo": "https://xeostudio.co/xeo-logo.png",
+      "image": "https://xeostudio.co/og-image.png",
+      "email": "leo@xeostudio.co",
+      "areaServed": "Worldwide",
+      "serviceType": "Short-form video editing and content creation",
+      "priceRange": "$150-$650"
+    }
+    </script>
 </head>
 <body class="bg-[#050505] text-white overflow-x-hidden">
+
+<a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:bg-[#7C3AED] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:text-sm focus:font-semibold">Skip to content</a>
 
 <!-- ════════════════════════════════════════════
      NAVIGATION
@@ -257,7 +288,7 @@
 <!-- ════════════════════════════════════════════
      HERO
 ════════════════════════════════════════════ -->
-<section class="relative min-h-screen flex items-center justify-center pt-20 pb-20 overflow-hidden">
+<section id="main" tabindex="-1" class="relative min-h-screen flex items-center justify-center pt-20 pb-20 overflow-hidden">
     <div class="absolute inset-0 hero-glow pointer-events-none"></div>
     <div class="absolute inset-0 grid-bg opacity-100 pointer-events-none"></div>
 
@@ -685,7 +716,7 @@
                     </li>
                 </ul>
                 <a href="#contact" class="btn-ghost block text-center rounded-xl py-3 text-[0.85rem] font-semibold text-white">
-                    Schedule a Call
+                    Get Started
                 </a>
             </div>
         </div>
