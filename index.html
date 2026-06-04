@@ -3,179 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LYRA STUDIO | Premium AI Short-Form Content Agency</title>
-    <meta name="description" content="LYRA STUDIO produces hyper-optimized, high-retention TikTok, Reels & Shorts edits driven by AI workflows. Scale your brand with done-for-you short-form content.">
+    <title>Rixz — AI Automation for Growing Businesses</title>
+    <meta name="description" content="I'm Rixz, 16. I build AI automations that save businesses 10+ hours a week. n8n, Make, Claude API. Let's automate your business.">
     <meta name="theme-color" content="#7C3AED">
     <link rel="canonical" href="https://lyrastudio.com/">
     <meta name="robots" content="index, follow">
-    <meta name="author" content="LYRA STUDIO">
-
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23050505'/%3E%3Cpath d='M16 4L18.4 13.6L28 16L18.4 18.4L16 28L13.6 18.4L4 16L13.6 13.6L16 4Z' fill='%23a855f7'/%3E%3C/svg%3E">
-    <link rel="apple-touch-icon" href="./xeo-logo.png">
-
-    <!-- Open Graph / social sharing -->
+    <meta name="author" content="Rixz">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23050505'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='16' font-weight='900' fill='%23a855f7' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://lyrastudio.com/">
-    <meta property="og:site_name" content="LYRA STUDIO">
-    <meta property="og:title" content="LYRA STUDIO | Premium AI Short-Form Content Agency">
-    <meta property="og:description" content="Done-for-you TikTok, Reels & Shorts edits, engineered with AI to hook viewers in the first 3 seconds. Scale your brand with high-retention short-form content.">
+    <meta property="og:site_name" content="Rixz">
+    <meta property="og:title" content="Rixz — AI Automation for Growing Businesses">
+    <meta property="og:description" content="I build AI automations that save businesses 10+ hours a week.">
     <meta property="og:image" content="https://lyrastudio.com/og-image.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="LYRA STUDIO social card: Short-Form Content That Stops the Scroll">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="LYRA STUDIO | Premium AI Short-Form Content Agency">
-    <meta name="twitter:description" content="Done-for-you TikTok, Reels & Shorts edits engineered with AI for high retention.">
     <meta name="twitter:image" content="https://lyrastudio.com/og-image.png">
 
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
     <style>
         *, *::before, *::after { font-family: 'Inter', sans-serif; box-sizing: border-box; }
 
-        /* ── Scrollbar ── */
         ::-webkit-scrollbar { width: 5px; }
         ::-webkit-scrollbar-track { background: #050505; }
         ::-webkit-scrollbar-thumb { background: #7C3AED; border-radius: 3px; }
 
-        /* ── Background glow ── */
         .hero-glow {
-            background: radial-gradient(ellipse 90% 55% at 50% -5%,
-                rgba(124, 58, 237, 0.32) 0%, transparent 70%);
+            background: radial-gradient(ellipse 80% 50% at 50% -10%,
+                rgba(124,58,237,0.28) 0%, transparent 70%);
         }
-
-        /* ── Grid overlay ── */
         .grid-bg {
             background-image:
-                linear-gradient(rgba(124,58,237,0.07) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(124,58,237,0.07) 1px, transparent 1px);
-            background-size: 52px 52px;
+                linear-gradient(rgba(124,58,237,0.06) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(124,58,237,0.06) 1px, transparent 1px);
+            background-size: 48px 48px;
         }
-
-        /* ── Gradient text ── */
         .gradient-text {
-            background: linear-gradient(130deg, #a855f7 0%, #e2c4ff 60%, #ffffff 100%);
+            background: linear-gradient(130deg, #a855f7 0%, #e2c4ff 55%, #ffffff 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-
-        /* ── Primary button ── */
         .btn-primary {
             background: linear-gradient(135deg, #7C3AED 0%, #9d4edd 100%);
-            box-shadow: 0 0 22px rgba(124, 58, 237, 0.45);
+            box-shadow: 0 0 22px rgba(124,58,237,0.4);
             transition: transform 0.18s ease, box-shadow 0.18s ease;
         }
-        .btn-primary:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 0 36px rgba(124, 58, 237, 0.75);
-        }
+        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 0 36px rgba(124,58,237,0.7); }
 
-        /* ── Ghost button ── */
         .btn-ghost {
-            border: 1px solid rgba(255,255,255,0.13);
+            border: 1px solid rgba(255,255,255,0.12);
             transition: border-color 0.18s ease, background 0.18s ease, transform 0.18s ease;
         }
-        .btn-ghost:hover {
-            border-color: rgba(124,58,237,0.55);
-            background: rgba(124,58,237,0.07);
-            transform: translateY(-2px);
-        }
+        .btn-ghost:hover { border-color: rgba(124,58,237,0.5); background: rgba(124,58,237,0.07); transform: translateY(-2px); }
 
-        /* ── Cards ── */
         .card {
             background: #0d0d0d;
             border: 1px solid rgba(255,255,255,0.055);
             transition: border-color 0.22s ease, box-shadow 0.22s ease, transform 0.22s ease;
         }
-        .card:hover {
-            border-color: rgba(124,58,237,0.45);
-            box-shadow: 0 0 28px rgba(124,58,237,0.12);
-            transform: translateY(-3px);
-        }
+        .card:hover { border-color: rgba(124,58,237,0.4); box-shadow: 0 0 28px rgba(124,58,237,0.1); transform: translateY(-3px); }
 
-        /* ── Icon badge ── */
-        .icon-badge {
-            background: rgba(124,58,237,0.15);
-            transition: background 0.2s ease;
-        }
-        .card:hover .icon-badge { background: rgba(124,58,237,0.25); }
+        .icon-badge { background: rgba(124,58,237,0.14); transition: background 0.2s ease; }
+        .card:hover .icon-badge { background: rgba(124,58,237,0.24); }
 
-        /* ── Step number ── */
-        .step-num {
-            color: rgba(124,58,237,0.38);
-            text-shadow: 0 0 24px rgba(124,58,237,0.5);
-            line-height: 1;
-        }
-
-        /* ── Metric badge ── */
         .metric-card {
-            background: linear-gradient(135deg, rgba(124,58,237,0.14), rgba(124,58,237,0.04));
-            border: 1px solid rgba(124,58,237,0.28);
+            background: linear-gradient(135deg, rgba(124,58,237,0.12), rgba(124,58,237,0.03));
+            border: 1px solid rgba(124,58,237,0.25);
         }
 
-        /* ── Video placeholder ── */
-        .video-wrap {
-            aspect-ratio: 9 / 16;
-            background: linear-gradient(180deg, #111 0%, #080808 100%);
-            position: relative;
-            overflow: hidden;
-        }
-        .video-play {
-            width: 56px; height: 56px;
-            border-radius: 50%;
-            background: rgba(124,58,237,0.18);
-            border: 1px solid rgba(124,58,237,0.45);
-            display: flex; align-items: center; justify-content: center;
-            transition: transform 0.2s ease, background 0.2s ease;
-        }
-        .group:hover .video-play {
-            transform: scale(1.12);
-            background: rgba(124,58,237,0.3);
-        }
-
-        /* ── Pricing popular ── */
         @keyframes pulseGlow {
-            0%, 100% { box-shadow: 0 0 0 1px rgba(124,58,237,0.55), 0 0 38px rgba(124,58,237,0.18); }
-            50%       { box-shadow: 0 0 0 1px rgba(168,85,247,0.8),  0 0 56px rgba(168,85,247,0.28); }
+            0%,100% { box-shadow: 0 0 0 1px rgba(124,58,237,0.5), 0 0 36px rgba(124,58,237,0.15); }
+            50%      { box-shadow: 0 0 0 1px rgba(168,85,247,0.75), 0 0 52px rgba(168,85,247,0.25); }
         }
-        .popular-card {
-            background: #0d0d0d;
-            animation: pulseGlow 2.4s ease-in-out infinite;
-        }
+        .popular-card { background: #0d0d0d; animation: pulseGlow 2.4s ease-in-out infinite; }
 
-        /* ── FAQ accordion ── */
-        .faq-body {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1);
-        }
-        .faq-body.open { max-height: 220px; }
+        .faq-body { max-height: 0; overflow: hidden; transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1); }
+        .faq-body.open { max-height: 260px; }
         .faq-chevron { transition: transform 0.3s ease; }
         .faq-chevron.open { transform: rotate(180deg); }
 
-        /* ── Active nav link (scrollspy) ── */
+        .nav-glass { background: rgba(5,5,5,0.92); backdrop-filter: blur(18px); border-bottom: 1px solid rgba(124,58,237,0.12); }
         .nav-link-active { color: #ffffff; }
 
-        /* ── Nav glass ── */
-        .nav-glass {
-            background: rgba(5,5,5,0.92);
-            backdrop-filter: blur(18px);
-            border-bottom: 1px solid rgba(124,58,237,0.14);
-        }
-
-        /* ── Final CTA card ── */
         .cta-block {
-            background: linear-gradient(135deg,
-                rgba(124,58,237,0.22) 0%,
-                rgba(168,85,247,0.09) 100%);
-            border: 1px solid rgba(124,58,237,0.38);
-            box-shadow: 0 0 70px rgba(124,58,237,0.13);
+            background: linear-gradient(135deg, rgba(124,58,237,0.2) 0%, rgba(168,85,247,0.08) 100%);
+            border: 1px solid rgba(124,58,237,0.35);
+            box-shadow: 0 0 60px rgba(124,58,237,0.1);
         }
 
-        /* ── Logo gradient ── */
         .logo-text {
             background: linear-gradient(135deg, #a855f7, #7C3AED);
             -webkit-background-clip: text;
@@ -183,25 +102,12 @@
             background-clip: text;
         }
 
-        /* ── Logo mark badge ── */
-        .logo-badge {
-            background: linear-gradient(135deg, #7C3AED 0%, #a855f7 100%);
-            box-shadow: 0 0 16px rgba(124,58,237,0.5);
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-        }
-        .logo-lockup:hover .logo-badge {
-            transform: rotate(-6deg) scale(1.05);
-            box-shadow: 0 0 24px rgba(124,58,237,0.7);
-        }
-
-        /* ── Pulse dot ── */
         @keyframes pulseDot {
-            0%, 100% { opacity: 1; transform: scale(1); }
-            50% { opacity: 0.6; transform: scale(1.4); }
+            0%,100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.5); }
         }
         .pulse-dot { animation: pulseDot 1.6s ease-in-out infinite; }
 
-        /* ── Section label ── */
         .section-label {
             color: #a855f7;
             font-size: 0.7rem;
@@ -210,10 +116,31 @@
             text-transform: uppercase;
         }
 
-        /* ── Anchor offset so headings clear the sticky nav ── */
+        .avatar-ring {
+            background: linear-gradient(135deg, #7C3AED, #a855f7);
+            padding: 2px;
+            border-radius: 50%;
+        }
+        .avatar-inner {
+            background: #050505;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tag {
+            background: rgba(124,58,237,0.12);
+            border: 1px solid rgba(124,58,237,0.25);
+            color: #c084fc;
+            font-size: 0.72rem;
+            font-weight: 600;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+        }
+
         section[id] { scroll-margin-top: 5rem; }
 
-        /* ── Respect reduced-motion preference ── */
         @media (prefers-reduced-motion: reduce) {
             *, *::before, *::after {
                 animation-duration: 0.001ms !important;
@@ -227,16 +154,13 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "LYRA STUDIO",
-      "description": "AI-powered short-form content agency producing high-retention TikTok, Instagram Reels and YouTube Shorts edits.",
+      "@type": "Person",
+      "name": "Rixz",
+      "description": "16-year-old AI automation specialist. Building workflows with n8n, Make, and Claude API.",
       "url": "https://lyrastudio.com/",
-      "logo": "https://lyrastudio.com/xeo-logo.png",
       "image": "https://lyrastudio.com/og-image.png",
       "email": "leo@lyrastudio.com",
-      "areaServed": "Worldwide",
-      "serviceType": "Short-form video editing and content creation",
-      "priceRange": "$150-$650"
+      "knowsAbout": ["AI Automation", "n8n", "Make.com", "Claude API", "Business Workflows"]
     }
     </script>
 </head>
@@ -244,371 +168,239 @@
 
 <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:bg-[#7C3AED] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:text-sm focus:font-semibold">Skip to content</a>
 
-<!-- ════════════════════════════════════════════
-     NAVIGATION
-════════════════════════════════════════════ -->
+<!-- NAV -->
 <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
-    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#" class="logo-lockup flex items-center gap-2" aria-label="LYRA STUDIO home">
-            <svg class="flex-shrink-0" width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M5 0L10 5L5 10L0 5Z" fill="url(#dn)"/><defs><linearGradient id="dn" x1="0" y1="0" x2="10" y2="10"><stop offset="0%" stop-color="#c084fc"/><stop offset="100%" stop-color="#7C3AED"/></linearGradient></defs></svg>
-            <span class="text-[1.2rem] font-black logo-text tracking-tight">LYRA STUDIO</span>
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+        <a href="#" class="flex items-center gap-2" aria-label="Rixz home">
+            <span class="text-[1.25rem] font-black logo-text tracking-tight">rixz</span>
         </a>
 
         <div class="hidden md:flex items-center gap-7">
-            <a href="#services" class="text-[0.82rem] text-gray-400 hover:text-white transition-colors duration-150">Services</a>
-            <a href="#portfolio" class="text-[0.82rem] text-gray-400 hover:text-white transition-colors duration-150">Portfolio</a>
-            <a href="#benefits" class="text-[0.82rem] text-gray-400 hover:text-white transition-colors duration-150">Benefits</a>
-            <a href="#pricing" class="text-[0.82rem] text-gray-400 hover:text-white transition-colors duration-150">Pricing</a>
-            <a href="#faq" class="text-[0.82rem] text-gray-400 hover:text-white transition-colors duration-150">FAQ</a>
+            <a href="#services" class="text-[0.82rem] text-gray-400 hover:text-white transition-colors duration-150 nav-link">Services</a>
+            <a href="#process" class="text-[0.82rem] text-gray-400 hover:text-white transition-colors duration-150 nav-link">Process</a>
+            <a href="#pricing" class="text-[0.82rem] text-gray-400 hover:text-white transition-colors duration-150 nav-link">Pricing</a>
+            <a href="#faq" class="text-[0.82rem] text-gray-400 hover:text-white transition-colors duration-150 nav-link">FAQ</a>
         </div>
 
         <a href="#contact" class="btn-primary px-5 py-2.5 rounded-xl text-[0.82rem] font-semibold text-white hidden md:inline-flex items-center gap-1.5">
-            Get a free audit
-            <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            Work with me
+            <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
         </a>
 
-        <!-- Mobile burger -->
         <button id="menuBtn" type="button" class="md:hidden p-2" onclick="toggleMenu()" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
             <svg class="w-5 h-5 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
             </svg>
         </button>
     </div>
-
-    <!-- Mobile menu -->
     <div id="mobileMenu" class="hidden md:hidden border-t border-[rgba(255,255,255,0.05)] bg-[rgba(5,5,5,0.97)]">
         <div class="flex flex-col gap-1 px-6 py-4">
             <a href="#services" class="text-gray-400 py-2 text-sm hover:text-white transition-colors" onclick="toggleMenu()">Services</a>
-            <a href="#portfolio" class="text-gray-400 py-2 text-sm hover:text-white transition-colors" onclick="toggleMenu()">Portfolio</a>
-            <a href="#benefits" class="text-gray-400 py-2 text-sm hover:text-white transition-colors" onclick="toggleMenu()">Benefits</a>
+            <a href="#process" class="text-gray-400 py-2 text-sm hover:text-white transition-colors" onclick="toggleMenu()">Process</a>
             <a href="#pricing" class="text-gray-400 py-2 text-sm hover:text-white transition-colors" onclick="toggleMenu()">Pricing</a>
             <a href="#faq" class="text-gray-400 py-2 text-sm hover:text-white transition-colors" onclick="toggleMenu()">FAQ</a>
-            <a href="#contact" class="btn-primary mt-2 text-center px-5 py-2.5 rounded-xl text-sm font-semibold text-white" onclick="toggleMenu()">Get a free audit</a>
+            <a href="#contact" class="btn-primary mt-2 text-center px-5 py-2.5 rounded-xl text-sm font-semibold text-white" onclick="toggleMenu()">Work with me</a>
         </div>
     </div>
 </nav>
 
-
-<!-- ════════════════════════════════════════════
-     HERO
-════════════════════════════════════════════ -->
+<!-- HERO -->
 <section id="main" tabindex="-1" class="relative min-h-screen flex items-center justify-center pt-20 pb-20 overflow-hidden">
     <div class="absolute inset-0 hero-glow pointer-events-none"></div>
     <div class="absolute inset-0 grid-bg opacity-100 pointer-events-none"></div>
 
-    <!-- Floating orb -->
-    <div class="absolute top-32 left-1/2 -translate-x-1/2 w-[600px] h-[300px] rounded-full"
-         style="background: radial-gradient(ellipse, rgba(124,58,237,0.12) 0%, transparent 70%); filter: blur(40px); pointer-events:none;"></div>
+    <div class="relative max-w-4xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center md:items-start gap-10">
 
-    <div class="relative max-w-5xl mx-auto px-6 text-center">
-        <!-- Badge -->
-        <div class="inline-flex items-center gap-2.5 bg-[rgba(124,58,237,0.1)] border border-[rgba(124,58,237,0.28)] rounded-full px-4 py-2 text-[0.75rem] text-purple-300 mb-9 font-medium">
-            <span class="pulse-dot w-1.5 h-1.5 rounded-full bg-purple-400 inline-block"></span>
-            AI-Powered Short-Form Content Agency
+            <!-- Avatar + intro -->
+            <div class="flex flex-col items-center md:items-start gap-6 flex-shrink-0">
+                <div class="avatar-ring w-20 h-20">
+                    <div class="avatar-inner w-full h-full">
+                        <span class="text-3xl font-black logo-text">R</span>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center md:items-start gap-2">
+                    <div class="flex items-center gap-2">
+                        <span class="pulse-dot w-1.5 h-1.5 rounded-full bg-green-400 inline-block"></span>
+                        <span class="text-gray-400 text-[0.78rem]">Available for new projects</span>
+                    </div>
+                    <div class="flex flex-wrap gap-2 justify-center md:justify-start">
+                        <span class="tag">AI Automation</span>
+                        <span class="tag">n8n</span>
+                        <span class="tag">Make.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Heading block -->
+            <div class="text-center md:text-left">
+                <p class="section-label mb-4">Hey, I'm Rixz</p>
+                <h1 class="text-4xl sm:text-5xl md:text-[3.6rem] font-black leading-[1.08] tracking-[-0.02em] mb-6">
+                    I Automate Your<br>
+                    <span class="gradient-text">Business with AI</span>
+                </h1>
+                <p class="text-gray-400 text-lg max-w-xl leading-[1.75] mb-8">
+                    I'm 16 and I build AI workflows that save businesses 10+ hours a week.
+                    Repetitive tasks, lead pipelines, auto-replies — handled. You focus on growth.
+                </p>
+                <div class="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-3.5">
+                    <a href="#contact" class="btn-primary px-8 py-3.5 rounded-xl text-white font-semibold text-[0.95rem] w-full sm:w-auto text-center">
+                        Get a free audit &nbsp;→
+                    </a>
+                    <a href="#services" class="btn-ghost px-8 py-3.5 rounded-xl text-white font-semibold text-[0.95rem] w-full sm:w-auto text-center">
+                        See what I build
+                    </a>
+                </div>
+            </div>
         </div>
 
-        <!-- Heading -->
-        <h1 class="text-5xl sm:text-6xl md:text-[4.5rem] font-black leading-[1.07] tracking-[-0.02em] mb-6">
-            Short-Form Content<br>
-            <span class="gradient-text">That Stops the Scroll</span>
-        </h1>
-
-        <!-- Subheading -->
-        <p class="text-gray-400 text-lg md:text-xl max-w-[640px] mx-auto mb-11 leading-[1.7]">
-            Done-for-you TikToks, Reels &amp; Shorts, engineered with AI to hook viewers
-            in the first 3 seconds and keep them watching. You send the idea, we handle the rest.
-        </p>
-
-        <!-- CTAs -->
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-3.5 mb-16">
-            <a href="#contact" class="btn-primary px-8 py-3.5 rounded-xl text-white font-semibold text-[0.95rem] w-full sm:w-auto text-center">
-                Get a free audit &nbsp;→
-            </a>
-            <a href="#portfolio" class="btn-ghost px-8 py-3.5 rounded-xl text-white font-semibold text-[0.95rem] w-full sm:w-auto text-center">
-                See our work
-            </a>
-        </div>
-
-        <!-- Platforms -->
-        <div class="flex flex-col items-center gap-4">
-            <p class="text-gray-600 text-[0.78rem] tracking-widest uppercase font-medium">Built for the platforms that move the needle</p>
-            <div class="flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
-                <span class="text-gray-400 text-[0.92rem] font-bold tracking-tight opacity-60 hover:opacity-90 transition-opacity">TikTok</span>
-                <span class="text-gray-700">·</span>
-                <span class="text-gray-400 text-[0.92rem] font-bold tracking-tight opacity-60 hover:opacity-90 transition-opacity">Instagram Reels</span>
-                <span class="text-gray-700">·</span>
-                <span class="text-gray-400 text-[0.92rem] font-bold tracking-tight opacity-60 hover:opacity-90 transition-opacity">YouTube Shorts</span>
+        <!-- Stats -->
+        <div class="grid grid-cols-3 gap-4 mt-16 max-w-xl mx-auto md:mx-0">
+            <div class="metric-card rounded-2xl p-4 text-center">
+                <div class="text-[1.8rem] font-black gradient-text leading-none mb-1">10h+</div>
+                <div class="text-gray-500 text-[0.7rem] font-medium">Saved per week</div>
+            </div>
+            <div class="metric-card rounded-2xl p-4 text-center">
+                <div class="text-[1.8rem] font-black gradient-text leading-none mb-1">48h</div>
+                <div class="text-gray-500 text-[0.7rem] font-medium">Delivery</div>
+            </div>
+            <div class="metric-card rounded-2xl p-4 text-center">
+                <div class="text-[1.8rem] font-black gradient-text leading-none mb-1">100%</div>
+                <div class="text-gray-500 text-[0.7rem] font-medium">Done for you</div>
             </div>
         </div>
     </div>
 </section>
 
 
-<!-- ════════════════════════════════════════════
-     SERVICES / WORKFLOW
-════════════════════════════════════════════ -->
-<section id="services" class="py-28 px-6">
-    <div class="max-w-7xl mx-auto">
-        <div class="text-center mb-16">
-            <p class="section-label mb-3">Our Process</p>
-            <h2 class="text-4xl md:text-[2.8rem] font-black leading-tight">
-                From Idea to Viral,<br>in 4 Steps
-            </h2>
-        </div>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            <!-- 01 -->
-            <div class="card rounded-2xl p-7 cursor-default">
-                <div class="step-num text-[3.8rem] font-black mb-4">01</div>
-                <div class="icon-badge w-10 h-10 rounded-xl flex items-center justify-center mb-5">
-                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636-.707.707M21 12h-1M4 12H3m3.343-5.657-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
-                    </svg>
-                </div>
-                <h3 class="text-white font-bold text-[1rem] mb-2">Scroll-Stopping Hooks</h3>
-                <p class="text-gray-500 text-[0.82rem] leading-relaxed">We script the first 3 seconds like your views depend on it, because they do. Attention from frame one.</p>
-            </div>
-
-            <!-- 02 -->
-            <div class="card rounded-2xl p-7 cursor-default">
-                <div class="step-num text-[3.8rem] font-black mb-4">02</div>
-                <div class="icon-badge w-10 h-10 rounded-xl flex items-center justify-center mb-5">
-                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1z"/>
-                    </svg>
-                </div>
-                <h3 class="text-white font-bold text-[1rem] mb-2">AI B-Roll &amp; Visuals</h3>
-                <p class="text-gray-500 text-[0.82rem] leading-relaxed">Fresh AI-generated visuals on every cut, so eyes stay glued to the screen and never drift away.</p>
-            </div>
-
-            <!-- 03 -->
-            <div class="card rounded-2xl p-7 cursor-default">
-                <div class="step-num text-[3.8rem] font-black mb-4">03</div>
-                <div class="icon-badge w-10 h-10 rounded-xl flex items-center justify-center mb-5">
-                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 0 1 0 7.072M12 6.253v13m0-13C10.833 5.083 8.833 4 7 4a9.956 9.956 0 0 0-4 .833v13A9.956 9.956 0 0 1 7 17c1.833 0 3.833 1.083 5 2.253m0-13C13.167 5.083 15.167 4 17 4c1.387 0 2.762.333 4 .833v13A9.956 9.956 0 0 0 17 17c-1.833 0-3.833 1.083-5 2.253z"/>
-                    </svg>
-                </div>
-                <h3 class="text-white font-bold text-[1rem] mb-2">Pro Editing &amp; Captions</h3>
-                <p class="text-gray-500 text-[0.82rem] leading-relaxed">Punchy cuts, dynamic subtitles, and viral pacing tuned to exactly what the algorithm rewards.</p>
-            </div>
-
-            <!-- 04 -->
-            <div class="card rounded-2xl p-7 cursor-default">
-                <div class="step-num text-[3.8rem] font-black mb-4">04</div>
-                <div class="icon-badge w-10 h-10 rounded-xl flex items-center justify-center mb-5">
-                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2zm0 0V9a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v10m-6 0a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2m0 0V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2z"/>
-                    </svg>
-                </div>
-                <h3 class="text-white font-bold text-[1rem] mb-2">Optimize &amp; Repeat</h3>
-                <p class="text-gray-500 text-[0.82rem] leading-relaxed">We read the drop-off data, double down on what works, and make every batch hit harder than the last.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!-- ════════════════════════════════════════════
-     PORTFOLIO SHOWCASE
-════════════════════════════════════════════ -->
-<section id="portfolio" class="py-28 px-6 bg-[#030303]">
-    <div class="max-w-7xl mx-auto">
+<!-- SERVICES -->
+<section id="services" class="py-24 px-6 bg-[#030303]">
+    <div class="max-w-6xl mx-auto">
         <div class="text-center mb-14">
-            <p class="section-label mb-3">Sample Work</p>
-            <h2 class="text-4xl md:text-[2.8rem] font-black leading-tight">
-                The Edit Styles That<br>Stop the Scroll
-            </h2>
-            <p class="text-gray-500 text-[0.92rem] mt-4 max-w-xl mx-auto leading-relaxed">
-                The formats we specialize in, each one engineered for retention and built natively for 9:16.
-            </p>
-        </div>
-
-        <!-- Metrics -->
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-14">
-            <div class="metric-card rounded-2xl p-5 text-center">
-                <div class="text-[2.1rem] font-black gradient-text leading-none mb-1">3s</div>
-                <div class="text-gray-500 text-[0.72rem] font-medium mt-1">Hook engineered upfront</div>
-            </div>
-            <div class="metric-card rounded-2xl p-5 text-center">
-                <div class="text-[2.1rem] font-black gradient-text leading-none mb-1">24-48h</div>
-                <div class="text-gray-500 text-[0.72rem] font-medium mt-1">Average delivery</div>
-            </div>
-            <div class="metric-card rounded-2xl p-5 text-center">
-                <div class="text-[2.1rem] font-black gradient-text leading-none mb-1">3-in-1</div>
-                <div class="text-gray-500 text-[0.72rem] font-medium mt-1">TikTok, Reels &amp; Shorts</div>
-            </div>
-            <div class="metric-card rounded-2xl p-5 text-center">
-                <div class="text-[2.1rem] font-black gradient-text leading-none mb-1">100%</div>
-                <div class="text-gray-500 text-[0.72rem] font-medium mt-1">Done-for-you</div>
-            </div>
-        </div>
-
-        <!-- Video grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-            <!-- Card 1 -->
-            <div class="card group rounded-2xl overflow-hidden">
-                <div class="video-wrap m-3 rounded-xl">
-                    <div class="absolute inset-0" style="background: linear-gradient(160deg, rgba(124,58,237,0.14) 0%, transparent 60%)"></div>
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="video-play">
-                            <svg class="w-6 h-6 text-purple-400 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                        </div>
-                    </div>
-                    <div class="absolute bottom-0 left-0 right-0 p-4" style="background: linear-gradient(0deg, rgba(0,0,0,0.85) 0%, transparent 100%)">
-                        <p class="text-white text-[0.78rem] font-semibold">Faceless UGC</p>
-                        <p class="text-purple-400 text-[0.7rem] mt-0.5">Hook-first &amp; fast-paced</p>
-                    </div>
-                </div>
-                <div class="px-5 pb-5 pt-1">
-                    <h3 class="text-white font-semibold text-[0.85rem] mb-0.5">Faceless UGC</h3>
-                    <p class="text-gray-500 text-[0.72rem]">Product &amp; brand content, no camera needed</p>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="card group rounded-2xl overflow-hidden">
-                <div class="video-wrap m-3 rounded-xl">
-                    <div class="absolute inset-0" style="background: linear-gradient(160deg, rgba(168,85,247,0.14) 0%, transparent 60%)"></div>
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="video-play">
-                            <svg class="w-6 h-6 text-purple-400 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                        </div>
-                    </div>
-                    <div class="absolute bottom-0 left-0 right-0 p-4" style="background: linear-gradient(0deg, rgba(0,0,0,0.85) 0%, transparent 100%)">
-                        <p class="text-white text-[0.78rem] font-semibold">Product Showcase</p>
-                        <p class="text-purple-400 text-[0.7rem] mt-0.5">Conversion-focused</p>
-                    </div>
-                </div>
-                <div class="px-5 pb-5 pt-1">
-                    <h3 class="text-white font-semibold text-[0.85rem] mb-0.5">Product Showcase</h3>
-                    <p class="text-gray-500 text-[0.72rem]">App demos &amp; e-commerce that actually sell</p>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="card group rounded-2xl overflow-hidden">
-                <div class="video-wrap m-3 rounded-xl">
-                    <div class="absolute inset-0" style="background: linear-gradient(160deg, rgba(124,58,237,0.14) 0%, transparent 60%)"></div>
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="video-play">
-                            <svg class="w-6 h-6 text-purple-400 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                        </div>
-                    </div>
-                    <div class="absolute bottom-0 left-0 right-0 p-4" style="background: linear-gradient(0deg, rgba(0,0,0,0.85) 0%, transparent 100%)">
-                        <p class="text-white text-[0.78rem] font-semibold">Talking-Head</p>
-                        <p class="text-purple-400 text-[0.7rem] mt-0.5">Subtitled &amp; dynamic</p>
-                    </div>
-                </div>
-                <div class="px-5 pb-5 pt-1">
-                    <h3 class="text-white font-semibold text-[0.85rem] mb-0.5">Founder &amp; Talking-Head</h3>
-                    <p class="text-gray-500 text-[0.72rem]">Personal-brand &amp; creator growth content</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!-- ════════════════════════════════════════════
-     BENEFITS
-════════════════════════════════════════════ -->
-<section id="benefits" class="py-28 px-6">
-    <div class="max-w-7xl mx-auto">
-        <div class="text-center mb-16">
-            <p class="section-label mb-3">Why Choose Us</p>
-            <h2 class="text-4xl md:text-[2.8rem] font-black leading-tight">
-                Short-Form Is the Fastest<br>Way to Grow. We Make It Easy.
+            <p class="section-label mb-3">What I Build</p>
+            <h2 class="text-4xl md:text-[2.6rem] font-black leading-tight">
+                Automations That Actually<br>Move the Needle
             </h2>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            <!-- 1 -->
             <div class="card rounded-2xl p-7 cursor-default">
                 <div class="icon-badge w-11 h-11 rounded-xl flex items-center justify-center mb-5">
-                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8-8 8-4-4-6 6"/>
-                    </svg>
+                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
                 </div>
-                <h3 class="text-white font-bold text-[0.97rem] mb-2">Increased Visibility</h3>
-                <p class="text-gray-500 text-[0.82rem] leading-relaxed">Explode on the algorithm 24/7. Your content is engineered to trigger every distribution signal.</p>
+                <h3 class="text-white font-bold text-[0.97rem] mb-2">Auto-Reply Systems</h3>
+                <p class="text-gray-500 text-[0.82rem] leading-relaxed">Instagram DMs, emails, contact forms — answered instantly by AI, 24/7. Never miss a lead again.</p>
             </div>
 
-            <!-- 2 -->
             <div class="card rounded-2xl p-7 cursor-default">
                 <div class="icon-badge w-11 h-11 rounded-xl flex items-center justify-center mb-5">
-                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 0 0 0 6.364L12 20.364l7.682-7.682a4.5 4.5 0 0 0-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 0 0-6.364 0z"/>
-                    </svg>
+                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8-8 8-4-4-6 6"/></svg>
                 </div>
-                <h3 class="text-white font-bold text-[0.97rem] mb-2">Higher Engagement</h3>
-                <p class="text-gray-500 text-[0.82rem] leading-relaxed">Keep viewers hooked past the 3-second mark with psychologically optimized hooks and pacing.</p>
+                <h3 class="text-white font-bold text-[0.97rem] mb-2">Lead Pipelines</h3>
+                <p class="text-gray-500 text-[0.82rem] leading-relaxed">From contact form to CRM to follow-up email — fully automated. Your leads are nurtured while you sleep.</p>
             </div>
 
-            <!-- 3 -->
             <div class="card rounded-2xl p-7 cursor-default">
                 <div class="icon-badge w-11 h-11 rounded-xl flex items-center justify-center mb-5">
-                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2m-6 12h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2z"/>
-                    </svg>
+                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
                 </div>
-                <h3 class="text-white font-bold text-[0.97rem] mb-2">Omnichannel Scaling</h3>
-                <p class="text-gray-500 text-[0.82rem] leading-relaxed">One piece of content deployed across TikTok, Reels, and Shorts simultaneously.</p>
+                <h3 class="text-white font-bold text-[0.97rem] mb-2">Content Workflows</h3>
+                <p class="text-gray-500 text-[0.82rem] leading-relaxed">Auto-generate social posts, captions, and newsletters from a single brief. AI does the writing, you do the approving.</p>
             </div>
 
-            <!-- 4 -->
             <div class="card rounded-2xl p-7 cursor-default">
                 <div class="icon-badge w-11 h-11 rounded-xl flex items-center justify-center mb-5">
-                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2z"/>
-                    </svg>
+                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
                 </div>
-                <h3 class="text-white font-bold text-[0.97rem] mb-2">Data-Driven Iteration</h3>
-                <p class="text-gray-500 text-[0.82rem] leading-relaxed">We edit based on drop-off analytics, so every video lands smarter and more optimized than the last.</p>
+                <h3 class="text-white font-bold text-[0.97rem] mb-2">Invoice & Admin</h3>
+                <p class="text-gray-500 text-[0.82rem] leading-relaxed">Automatic invoicing, payment reminders, and client onboarding. Admin that runs itself.</p>
             </div>
 
-            <!-- 5 -->
             <div class="card rounded-2xl p-7 cursor-default">
                 <div class="icon-badge w-11 h-11 rounded-xl flex items-center justify-center mb-5">
-                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17 9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"/>
-                    </svg>
+                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/></svg>
                 </div>
-                <h3 class="text-white font-bold text-[0.97rem] mb-2">Elite AI Integration</h3>
-                <p class="text-gray-500 text-[0.82rem] leading-relaxed">Cutting-edge tools for world-class visual assets, always ahead of every competitor.</p>
+                <h3 class="text-white font-bold text-[0.97rem] mb-2">Custom AI Agents</h3>
+                <p class="text-gray-500 text-[0.82rem] leading-relaxed">Claude-powered agents that handle complex tasks — research, summarize, decide and act. Built for your exact workflow.</p>
             </div>
 
-            <!-- 6 -->
             <div class="card rounded-2xl p-7 cursor-default">
                 <div class="icon-badge w-11 h-11 rounded-xl flex items-center justify-center mb-5">
-                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/>
-                    </svg>
+                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
                 </div>
-                <h3 class="text-white font-bold text-[0.97rem] mb-2">100% Done-For-You</h3>
-                <p class="text-gray-500 text-[0.82rem] leading-relaxed">You just record or give us the prompt, and we handle scripting, editing, and delivery end to end.</p>
+                <h3 class="text-white font-bold text-[0.97rem] mb-2">Anything Repetitive</h3>
+                <p class="text-gray-500 text-[0.82rem] leading-relaxed">If you do it manually more than 3 times a week, I can probably automate it. Tell me what's slowing you down.</p>
             </div>
         </div>
     </div>
 </section>
 
 
-<!-- ════════════════════════════════════════════
-     PRICING
-════════════════════════════════════════════ -->
-<section id="pricing" class="py-28 px-6 bg-[#030303]">
-    <div class="max-w-5xl mx-auto">
-        <div class="text-center mb-16">
-            <p class="section-label mb-3">Pricing</p>
-            <h2 class="text-4xl md:text-[2.8rem] font-black leading-tight">
-                The Best Content Automation,<br>at the Right Price
+<!-- PROCESS -->
+<section id="process" class="py-24 px-6">
+    <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-14">
+            <p class="section-label mb-3">How It Works</p>
+            <h2 class="text-4xl md:text-[2.6rem] font-black leading-tight">
+                From Problem to<br>Running Automation in 48h
             </h2>
-            <div class="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-gray-500 text-[0.85rem] mt-5">
-                <span class="whitespace-nowrap">Month-to-month</span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            <div class="card rounded-2xl p-7 cursor-default">
+                <div class="text-[3.5rem] font-black mb-4" style="color:rgba(124,58,237,0.35); text-shadow: 0 0 20px rgba(124,58,237,0.4); line-height:1;">01</div>
+                <div class="icon-badge w-10 h-10 rounded-xl flex items-center justify-center mb-4">
+                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+                </div>
+                <h3 class="text-white font-bold text-[0.95rem] mb-2">You Tell Me the Pain</h3>
+                <p class="text-gray-500 text-[0.8rem] leading-relaxed">Fill the form. Describe what's wasting your time. I reply within 24h with a plan.</p>
+            </div>
+
+            <div class="card rounded-2xl p-7 cursor-default">
+                <div class="text-[3.5rem] font-black mb-4" style="color:rgba(124,58,237,0.35); text-shadow: 0 0 20px rgba(124,58,237,0.4); line-height:1;">02</div>
+                <div class="icon-badge w-10 h-10 rounded-xl flex items-center justify-center mb-4">
+                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+                </div>
+                <h3 class="text-white font-bold text-[0.95rem] mb-2">I Scope It</h3>
+                <p class="text-gray-500 text-[0.8rem] leading-relaxed">I send you a clear written proposal — what I'll build, how it works, and the price. No surprises.</p>
+            </div>
+
+            <div class="card rounded-2xl p-7 cursor-default">
+                <div class="text-[3.5rem] font-black mb-4" style="color:rgba(124,58,237,0.35); text-shadow: 0 0 20px rgba(124,58,237,0.4); line-height:1;">03</div>
+                <div class="icon-badge w-10 h-10 rounded-xl flex items-center justify-center mb-4">
+                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                </div>
+                <h3 class="text-white font-bold text-[0.95rem] mb-2">I Build It</h3>
+                <p class="text-gray-500 text-[0.8rem] leading-relaxed">I build and test the automation. Most workflows are ready in 24-48 hours.</p>
+            </div>
+
+            <div class="card rounded-2xl p-7 cursor-default">
+                <div class="text-[3.5rem] font-black mb-4" style="color:rgba(124,58,237,0.35); text-shadow: 0 0 20px rgba(124,58,237,0.4); line-height:1;">04</div>
+                <div class="icon-badge w-10 h-10 rounded-xl flex items-center justify-center mb-4">
+                    <svg class="w-5 h-5 text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <h3 class="text-white font-bold text-[0.95rem] mb-2">It Runs Forever</h3>
+                <p class="text-gray-500 text-[0.8rem] leading-relaxed">You get a full walkthrough. The automation runs 24/7. I'm available if anything needs tuning.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- PRICING -->
+<section id="pricing" class="py-24 px-6 bg-[#030303]">
+    <div class="max-w-5xl mx-auto">
+        <div class="text-center mb-14">
+            <p class="section-label mb-3">Pricing</p>
+            <h2 class="text-4xl md:text-[2.6rem] font-black leading-tight">
+                Simple, Transparent Pricing
+            </h2>
+            <div class="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-gray-500 text-[0.85rem] mt-4">
+                <span class="whitespace-nowrap">One-time project</span>
                 <span class="text-gray-700">·</span>
-                <span class="whitespace-nowrap">Cancel anytime</span>
+                <span class="whitespace-nowrap">Or monthly retainer</span>
                 <span class="text-gray-700">·</span>
-                <span class="whitespace-nowrap">No lock-in</span>
+                <span class="whitespace-nowrap">No hidden fees</span>
             </div>
         </div>
 
@@ -617,193 +409,169 @@
             <div class="card rounded-2xl p-8">
                 <p class="text-gray-500 text-[0.7rem] font-bold uppercase tracking-widest mb-4">Starter</p>
                 <div class="flex items-end gap-1 mb-1">
-                    <span class="text-[2.8rem] font-black text-white leading-none">$150</span>
-                    <span class="text-gray-500 text-[0.8rem] mb-1">/mo</span>
+                    <span class="text-[2.6rem] font-black text-white leading-none">$299</span>
+                    <span class="text-gray-500 text-[0.8rem] mb-1">/project</span>
                 </div>
-                <p class="text-gray-500 text-[0.72rem] mb-7">5 AI videos · perfect entry point</p>
+                <p class="text-gray-500 text-[0.72rem] mb-7">1 automation · perfect entry point</p>
                 <ul class="space-y-3 mb-8">
                     <li class="flex items-center gap-3 text-[0.82rem] text-gray-400">
                         <svg class="w-4 h-4 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-                        5 High-Retention AI Videos per month
+                        1 custom automation built
                     </li>
                     <li class="flex items-center gap-3 text-[0.82rem] text-gray-400">
                         <svg class="w-4 h-4 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-                        Perfect for testing our hyper-optimized workflow
+                        Delivered in 48h
                     </li>
                     <li class="flex items-center gap-3 text-[0.82rem] text-gray-400">
                         <svg class="w-4 h-4 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-                        Custom viral hooks &amp; dynamic captions
+                        Full walkthrough included
                     </li>
                     <li class="flex items-center gap-3 text-[0.82rem] text-gray-400">
                         <svg class="w-4 h-4 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-                        Multi-platform formatting (TikTok, Reels, Shorts)
-                    </li>
-                    <li class="flex items-center gap-3 text-[0.82rem] text-gray-400">
-                        <svg class="w-4 h-4 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-                        48h Turnaround time
+                        7-day support after delivery
                     </li>
                 </ul>
-                <a href="#contact" class="btn-ghost block text-center rounded-xl py-3 text-[0.85rem] font-semibold text-white">
-                    Get Started
-                </a>
+                <a href="#contact" class="btn-ghost block text-center rounded-xl py-3 text-[0.85rem] font-semibold text-white">Get Started</a>
             </div>
 
-            <!-- Growth (Most Popular) -->
+            <!-- Growth -->
             <div class="popular-card rounded-2xl p-8 relative md:scale-[1.04]">
                 <div class="absolute -top-4 left-1/2 -translate-x-1/2 whitespace-nowrap">
-                    <span style="background: linear-gradient(135deg, #7C3AED, #a855f7);" class="text-white text-[0.7rem] font-black px-4 py-1.5 rounded-full tracking-widest uppercase">
-                        Most Popular
-                    </span>
+                    <span style="background: linear-gradient(135deg, #7C3AED, #a855f7);" class="text-white text-[0.7rem] font-black px-4 py-1.5 rounded-full tracking-widest uppercase">Most Popular</span>
                 </div>
-                <p class="text-purple-400 text-[0.7rem] font-bold uppercase tracking-widest mb-4">Growth ⭐️</p>
+                <p class="text-purple-400 text-[0.7rem] font-bold uppercase tracking-widest mb-4">Growth</p>
                 <div class="flex items-end gap-1 mb-1">
-                    <span class="text-[2.8rem] font-black text-white leading-none">$350</span>
+                    <span class="text-[2.6rem] font-black text-white leading-none">$199</span>
                     <span class="text-gray-500 text-[0.8rem] mb-1">/mo</span>
                 </div>
-                <p class="text-gray-500 text-[0.72rem] mb-7">15 AI videos · high-frequency scaling</p>
+                <p class="text-gray-500 text-[0.72rem] mb-7">Ongoing automations · scale without limits</p>
                 <ul class="space-y-3 mb-8">
                     <li class="flex items-center gap-3 text-[0.82rem] text-gray-300">
                         <svg class="w-4 h-4 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-                        15 High-Retention AI Videos per month
+                        2 new automations per month
                     </li>
                     <li class="flex items-center gap-3 text-[0.82rem] text-gray-300">
                         <svg class="w-4 h-4 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-                        High-frequency scaling (3 posts per week)
+                        Unlimited tweaks and updates
                     </li>
                     <li class="flex items-center gap-3 text-[0.82rem] text-gray-300">
                         <svg class="w-4 h-4 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-                        Custom Hook Variations to test the algorithm
+                        Priority 24h delivery
                     </li>
                     <li class="flex items-center gap-3 text-[0.82rem] text-gray-300">
                         <svg class="w-4 h-4 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-                        Premium AI asset generation &amp; B-Rolls
+                        Direct message support
                     </li>
                     <li class="flex items-center gap-3 text-[0.82rem] text-gray-300">
                         <svg class="w-4 h-4 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-                        Priority 24h Turnaround time
-                    </li>
-                    <li class="flex items-center gap-3 text-[0.82rem] text-gray-300">
-                        <svg class="w-4 h-4 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-                        Dedicated support channel
+                        Cancel anytime
                     </li>
                 </ul>
-                <a href="#contact" class="btn-primary block text-center rounded-xl py-3 text-[0.85rem] font-semibold text-white">
-                    Get Started &nbsp;→
-                </a>
+                <a href="#contact" class="btn-primary block text-center rounded-xl py-3 text-[0.85rem] font-semibold text-white">Get Started &nbsp;→</a>
             </div>
 
             <!-- Scale -->
             <div class="card rounded-2xl p-8">
                 <p class="text-gray-500 text-[0.7rem] font-bold uppercase tracking-widest mb-4">Scale</p>
                 <div class="flex items-end gap-1 mb-1">
-                    <span class="text-[2.8rem] font-black text-white leading-none">$650</span>
+                    <span class="text-[2.6rem] font-black text-white leading-none">$499</span>
                     <span class="text-gray-500 text-[0.8rem] mb-1">/mo</span>
                 </div>
-                <p class="text-gray-500 text-[0.72rem] mb-7">30 AI videos · full omnichannel domination</p>
+                <p class="text-gray-500 text-[0.72rem] mb-7">Full automation stack · hands-off growth</p>
                 <ul class="space-y-3 mb-8">
                     <li class="flex items-center gap-3 text-[0.82rem] text-gray-400">
                         <svg class="w-4 h-4 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-                        30 Premium AI Videos per month
+                        5 automations per month
                     </li>
                     <li class="flex items-center gap-3 text-[0.82rem] text-gray-400">
                         <svg class="w-4 h-4 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-                        Full Omnichannel Domination (1 post everyday)
+                        Custom AI agents (Claude API)
                     </li>
                     <li class="flex items-center gap-3 text-[0.82rem] text-gray-400">
                         <svg class="w-4 h-4 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-                        Advanced A/B Testing on Intros &amp; Hooks
+                        Full workflow audit included
                     </li>
                     <li class="flex items-center gap-3 text-[0.82rem] text-gray-400">
                         <svg class="w-4 h-4 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-                        Audience retention insights &amp; data tuning
+                        Same-day priority delivery
                     </li>
                     <li class="flex items-center gap-3 text-[0.82rem] text-gray-400">
                         <svg class="w-4 h-4 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-                        Automated delivery workflow
-                    </li>
-                    <li class="flex items-center gap-3 text-[0.82rem] text-gray-400">
-                        <svg class="w-4 h-4 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-                        Executive priority support access
+                        Dedicated support channel
                     </li>
                 </ul>
-                <a href="#contact" class="btn-ghost block text-center rounded-xl py-3 text-[0.85rem] font-semibold text-white">
-                    Get Started
-                </a>
+                <a href="#contact" class="btn-ghost block text-center rounded-xl py-3 text-[0.85rem] font-semibold text-white">Get Started</a>
             </div>
         </div>
     </div>
 </section>
 
 
-<!-- ════════════════════════════════════════════
-     FAQ
-════════════════════════════════════════════ -->
-<section id="faq" class="py-28 px-6">
+<!-- FAQ -->
+<section id="faq" class="py-24 px-6">
     <div class="max-w-2xl mx-auto">
-        <div class="text-center mb-14">
+        <div class="text-center mb-12">
             <p class="section-label mb-3">FAQ</p>
-            <h2 class="text-4xl md:text-[2.8rem] font-black leading-tight">
-                We've Got the Answers<br>You're Looking For
-            </h2>
+            <h2 class="text-4xl md:text-[2.6rem] font-black leading-tight">Quick Answers</h2>
         </div>
 
         <div class="space-y-3">
             <div class="card rounded-2xl overflow-hidden">
                 <button type="button" class="w-full flex items-center justify-between p-6 text-left gap-4" onclick="toggleFaq(this)" aria-expanded="false">
-                    <span class="text-white font-semibold text-[0.88rem]">How does the AI workflow actually help my content?</span>
+                    <span class="text-white font-semibold text-[0.88rem]">Do I need to understand AI to use your automations?</span>
                     <svg class="faq-chevron w-5 h-5 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
                 </button>
                 <div class="faq-body">
                     <div class="px-6 pb-6 text-gray-500 text-[0.82rem] leading-relaxed border-t border-[rgba(255,255,255,0.04)] pt-4">
-                        Our AI analyzes top-performing content in your niche to extract the exact hooks, pacing, and structures that drive retention. We apply those patterns to every edit, driving higher watch time, more shares, and better algorithm performance from the very first video.
+                        Not at all. I handle the technical side completely. You describe the problem, I build the solution, and I walk you through how to use it. No coding or AI knowledge needed.
                     </div>
                 </div>
             </div>
 
             <div class="card rounded-2xl overflow-hidden">
                 <button type="button" class="w-full flex items-center justify-between p-6 text-left gap-4" onclick="toggleFaq(this)" aria-expanded="false">
-                    <span class="text-white font-semibold text-[0.88rem]">What is the typical turnaround time?</span>
+                    <span class="text-white font-semibold text-[0.88rem]">What tools do you use to build automations?</span>
                     <svg class="faq-chevron w-5 h-5 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
                 </button>
                 <div class="faq-body">
                     <div class="px-6 pb-6 text-gray-500 text-[0.82rem] leading-relaxed border-t border-[rgba(255,255,255,0.04)] pt-4">
-                        Starter: 48 hours. Growth: 24-hour standard. Scale: same-day priority processing for urgent batches. All timelines are guaranteed.
+                        Mainly n8n and Make.com for workflow automation, and the Claude API for AI-powered logic. I pick the right tool for your use case — cost, reliability and simplicity are always the priority.
                     </div>
                 </div>
             </div>
 
             <div class="card rounded-2xl overflow-hidden">
                 <button type="button" class="w-full flex items-center justify-between p-6 text-left gap-4" onclick="toggleFaq(this)" aria-expanded="false">
-                    <span class="text-white font-semibold text-[0.88rem]">Do I need to provide raw footage?</span>
+                    <span class="text-white font-semibold text-[0.88rem]">What kind of business is this for?</span>
                     <svg class="faq-chevron w-5 h-5 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
                 </button>
                 <div class="faq-body">
                     <div class="px-6 pb-6 text-gray-500 text-[0.82rem] leading-relaxed border-t border-[rgba(255,255,255,0.04)] pt-4">
-                        Not at all. Our AI generates fully faceless content from just a prompt or product link. If you have your own footage, we can also enhance and edit it. Both approaches produce top-tier results.
+                        Any business that does repetitive digital tasks — e-commerce brands, coaches, agencies, SaaS, freelancers. If you're spending hours on emails, follow-ups, reporting or data entry, I can save you most of that time.
                     </div>
                 </div>
             </div>
 
             <div class="card rounded-2xl overflow-hidden">
                 <button type="button" class="w-full flex items-center justify-between p-6 text-left gap-4" onclick="toggleFaq(this)" aria-expanded="false">
-                    <span class="text-white font-semibold text-[0.88rem]">What platforms does this work for?</span>
+                    <span class="text-white font-semibold text-[0.88rem]">How much does it cost to run the automations?</span>
                     <svg class="faq-chevron w-5 h-5 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
                 </button>
                 <div class="faq-body">
                     <div class="px-6 pb-6 text-gray-500 text-[0.82rem] leading-relaxed border-t border-[rgba(255,255,255,0.04)] pt-4">
-                        Every video is optimized for TikTok, Instagram Reels, and YouTube Shorts simultaneously. Each edit is formatted in 9:16 with platform-specific captions, pacing, and audio levels baked in.
+                        Most automations run on free or very cheap tiers (Make.com starts at $9/mo, n8n can be self-hosted for free). I always factor in running costs before proposing a solution and I pick the most cost-effective stack for your use case.
                     </div>
                 </div>
             </div>
 
             <div class="card rounded-2xl overflow-hidden">
                 <button type="button" class="w-full flex items-center justify-between p-6 text-left gap-4" onclick="toggleFaq(this)" aria-expanded="false">
-                    <span class="text-white font-semibold text-[0.88rem]">Can I cancel at any time?</span>
+                    <span class="text-white font-semibold text-[0.88rem]">You're 16 — can I trust the quality?</span>
                     <svg class="faq-chevron w-5 h-5 text-purple-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
                 </button>
                 <div class="faq-body">
                     <div class="px-6 pb-6 text-gray-500 text-[0.82rem] leading-relaxed border-t border-[rgba(255,255,255,0.04)] pt-4">
-                        Yes, all plans are month-to-month with no lock-in. Cancel anytime before your next billing cycle. We're confident you'll stay because the results speak for themselves.
+                        Fair question. I don't charge until you're satisfied, every project starts with a free audit, and the Starter package is deliberately low-risk so you can test the quality before committing to anything bigger.
                     </div>
                 </div>
             </div>
@@ -812,28 +580,25 @@
 </section>
 
 
-<!-- ════════════════════════════════════════════
-     FINAL CTA
-════════════════════════════════════════════ -->
-<section id="contact" class="py-28 px-6 bg-[#030303]">
+<!-- CONTACT -->
+<section id="contact" class="py-24 px-6 bg-[#030303]">
     <div class="max-w-2xl mx-auto">
         <div class="cta-block rounded-3xl px-7 py-12 md:px-14 md:py-16">
             <div class="text-center mb-9">
-                <p class="section-label mb-5">Get Started</p>
+                <p class="section-label mb-5">Let's Work Together</p>
                 <h2 class="text-4xl sm:text-5xl font-black leading-[1.08] mb-5">
-                    Tell Us About<br>
-                    <span class="gradient-text">Your Brand</span>
+                    What's Slowing<br>
+                    <span class="gradient-text">Your Business Down?</span>
                 </h2>
-                <p class="text-gray-400 text-[1rem] md:text-lg max-w-md mx-auto leading-relaxed">
-                    Send a message and get a <strong class="text-white font-semibold">free content audit</strong> + a sample edit. No call needed. We reply in writing within 24h.
+                <p class="text-gray-400 text-[1rem] max-w-md mx-auto leading-relaxed">
+                    Describe the task you want automated. I reply with a <strong class="text-white font-semibold">free audit + a plan</strong> within 24h. No call needed.
                 </p>
             </div>
 
             <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" class="flex flex-col gap-4 text-left">
                 <input type="hidden" name="access_key" value="32316868-9fa3-4bef-ab65-727d54fe2a96">
-                <input type="hidden" name="subject" value="New lead from lyrastudio.com">
-                <input type="hidden" name="from_name" value="LYRA STUDIO Website">
-                <!-- Honeypot anti-spam (leave empty) -->
+                <input type="hidden" name="subject" value="New lead from rixz / lyrastudio.com">
+                <input type="hidden" name="from_name" value="Rixz Website">
                 <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off">
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -844,13 +609,13 @@
                     </div>
                     <div>
                         <label for="cfEmail" class="sr-only">Your email</label>
-                        <input id="cfEmail" name="email" type="email" required autocomplete="email" placeholder="you@brand.com"
+                        <input id="cfEmail" name="email" type="email" required autocomplete="email" placeholder="you@company.com"
                             class="w-full bg-[#0d0d0d] border border-[rgba(255,255,255,0.09)] rounded-xl px-4 py-3 text-[0.9rem] text-white placeholder-gray-500 focus:outline-none focus:border-[rgba(124,58,237,0.6)] transition-colors">
                     </div>
                 </div>
                 <div>
                     <label for="cfMsg" class="sr-only">Your message</label>
-                    <textarea id="cfMsg" name="message" rows="4" required placeholder="What do you sell, and where do you post? (TikTok / Reels / Shorts)"
+                    <textarea id="cfMsg" name="message" rows="4" required placeholder="What repetitive task is eating your time every week?"
                         class="w-full bg-[#0d0d0d] border border-[rgba(255,255,255,0.09)] rounded-xl px-4 py-3 text-[0.9rem] text-white placeholder-gray-500 focus:outline-none focus:border-[rgba(124,58,237,0.6)] transition-colors resize-y"></textarea>
                 </div>
                 <button type="submit" class="btn-primary px-8 py-4 rounded-xl text-white font-bold text-[0.95rem] w-full">
@@ -863,55 +628,43 @@
 </section>
 
 
-<!-- ════════════════════════════════════════════
-     FOOTER
-════════════════════════════════════════════ -->
-<footer class="py-14 px-6 border-t border-[rgba(255,255,255,0.04)]">
-    <div class="max-w-7xl mx-auto">
-        <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10 mb-10">
+<!-- FOOTER -->
+<footer class="py-12 px-6 border-t border-[rgba(255,255,255,0.04)]">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 mb-8">
             <div>
-                <div class="logo-lockup flex items-center gap-2 mb-2">
-                    <svg class="flex-shrink-0" width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><path d="M6.5 0L7.8 5.2L13 6.5L7.8 7.8L6.5 13L5.2 7.8L0 6.5L5.2 5.2L6.5 0Z" fill="url(#sf)"/><defs><linearGradient id="sf" x1="0" y1="0" x2="13" y2="13"><stop offset="0%" stop-color="#c084fc"/><stop offset="100%" stop-color="#7C3AED"/></linearGradient></defs></svg>
-                    <span class="text-xl font-black logo-text">LYRA STUDIO</span>
-                </div>
-                <p class="text-gray-500 text-[0.75rem]">Premium AI Short-Form Content Agency</p>
+                <div class="text-xl font-black logo-text mb-1">rixz</div>
+                <p class="text-gray-500 text-[0.75rem]">AI Automation for Growing Businesses</p>
             </div>
 
             <nav class="flex flex-wrap gap-6">
                 <a href="#services"  class="text-gray-500 hover:text-white text-[0.82rem] transition-colors">Services</a>
-                <a href="#portfolio" class="text-gray-500 hover:text-white text-[0.82rem] transition-colors">Portfolio</a>
-                <a href="#benefits"  class="text-gray-500 hover:text-white text-[0.82rem] transition-colors">Benefits</a>
+                <a href="#process"   class="text-gray-500 hover:text-white text-[0.82rem] transition-colors">Process</a>
                 <a href="#pricing"   class="text-gray-500 hover:text-white text-[0.82rem] transition-colors">Pricing</a>
                 <a href="#faq"       class="text-gray-500 hover:text-white text-[0.82rem] transition-colors">FAQ</a>
                 <a href="#contact"   class="text-gray-500 hover:text-white text-[0.82rem] transition-colors">Contact</a>
             </nav>
 
-            <!-- Contact CTA -->
             <a href="#contact" class="btn-primary px-5 py-2.5 rounded-xl text-white text-[0.82rem] font-semibold whitespace-nowrap inline-flex items-center gap-2">
-                Get a free audit
+                Work with me
                 <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </a>
         </div>
 
         <div class="border-t border-[rgba(255,255,255,0.04)] pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
-            <p class="text-gray-500 text-[0.72rem]">© 2025 LYRA STUDIO. All rights reserved.</p>
-            <p class="text-gray-500 text-[0.72rem]">Built with AI &nbsp;·&nbsp; Short-Form Video Experts</p>
+            <p class="text-gray-500 text-[0.72rem]">© 2026 Rixz. All rights reserved.</p>
+            <p class="text-gray-500 text-[0.72rem]">Built with AI &nbsp;·&nbsp; leo@lyrastudio.com</p>
         </div>
     </div>
 </footer>
 
 
-<!-- ════════════════════════════════════════════
-     JAVASCRIPT
-════════════════════════════════════════════ -->
 <script>
     // ── Navbar scroll glass ──
     const navbar = document.getElementById('navbar');
-    const onScroll = () => {
-        if (window.scrollY > 30) navbar.classList.add('nav-glass');
-        else navbar.classList.remove('nav-glass');
-    };
-    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('scroll', () => {
+        navbar.classList.toggle('nav-glass', window.scrollY > 30);
+    }, { passive: true });
 
     // ── Mobile menu ──
     function toggleMenu() {
@@ -927,12 +680,9 @@
         const body    = btn.nextElementSibling;
         const chevron = btn.querySelector('.faq-chevron');
         const isOpen  = body.classList.contains('open');
-
-        // Close all
         document.querySelectorAll('.faq-body').forEach(b => b.classList.remove('open'));
         document.querySelectorAll('.faq-chevron').forEach(c => c.classList.remove('open'));
         document.querySelectorAll('[onclick="toggleFaq(this)"]').forEach(b => b.setAttribute('aria-expanded', 'false'));
-
         if (!isOpen) {
             body.classList.add('open');
             chevron.classList.add('open');
@@ -940,7 +690,7 @@
         }
     }
 
-    // ── Contact form (Web3Forms, no backend) ──
+    // ── Contact form ──
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
         const statusEl = document.getElementById('cfStatus');
@@ -951,21 +701,15 @@
             btn.disabled = true; btn.style.opacity = '0.7'; btn.textContent = 'Sending…';
             statusEl.classList.add('hidden');
             try {
-                const res = await fetch(contactForm.action, {
-                    method: 'POST',
-                    body: new FormData(contactForm),
-                    headers: { 'Accept': 'application/json' }
-                });
+                const res = await fetch(contactForm.action, { method: 'POST', body: new FormData(contactForm), headers: { 'Accept': 'application/json' } });
                 const data = await res.json();
                 if (data.success) {
                     contactForm.reset();
-                    statusEl.textContent = "✓ Thanks! Your message is in. We'll reply within 24h.";
+                    statusEl.textContent = "✓ Got it. I'll reply within 24h.";
                     statusEl.style.color = '#a855f7';
-                } else {
-                    throw new Error(data.message || 'error');
-                }
-            } catch (err) {
-                statusEl.textContent = 'Something went wrong. Email us directly at leo@lyrastudio.com';
+                } else { throw new Error(); }
+            } catch {
+                statusEl.textContent = 'Something went wrong. Email me at leo@lyrastudio.com';
                 statusEl.style.color = '#f87171';
             } finally {
                 statusEl.classList.remove('hidden');
@@ -974,24 +718,20 @@
         });
     }
 
-    // ── Smooth scroll (respects reduced-motion) ──
+    // ── Smooth scroll ──
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     document.querySelectorAll('a[href^="#"]').forEach(a => {
         a.addEventListener('click', e => {
             const href = a.getAttribute('href');
             if (href === '#') return;
             const el = document.querySelector(href);
-            if (el) {
-                e.preventDefault();
-                el.scrollIntoView({ behavior: prefersReducedMotion ? 'auto' : 'smooth', block: 'start' });
-            }
+            if (el) { e.preventDefault(); el.scrollIntoView({ behavior: prefersReducedMotion ? 'auto' : 'smooth', block: 'start' }); }
         });
     });
 
-    // ── Active nav link on scroll (scrollspy) ──
+    // ── Scrollspy ──
     const navLinks = [...document.querySelectorAll('#navbar a[href^="#"]')];
-    const spyTargets = ['services','portfolio','benefits','pricing','faq']
-        .map(id => document.getElementById(id)).filter(Boolean);
+    const spyTargets = ['services','process','pricing','faq'].map(id => document.getElementById(id)).filter(Boolean);
     if (spyTargets.length) {
         const spy = new IntersectionObserver(entries => {
             entries.forEach(e => {
@@ -1004,7 +744,7 @@
         spyTargets.forEach(t => spy.observe(t));
     }
 
-    // ── Intersection Observer: fade-in cards ──
+    // ── Fade-in on scroll ──
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -1013,8 +753,7 @@
                 observer.unobserve(entry.target);
             }
         });
-    }, { threshold: 0.1 });
-
+    }, { threshold: 0.08 });
     document.querySelectorAll('.card, .metric-card, .popular-card, .cta-block').forEach(el => {
         el.style.opacity = '0';
         el.style.transform = (el.style.transform || '') + ' translateY(18px)';
