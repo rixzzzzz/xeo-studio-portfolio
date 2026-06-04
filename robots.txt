@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://xeostudio.com/sitemap.xml
+Sitemap: https://lyrastudio.com/sitemap.xml
